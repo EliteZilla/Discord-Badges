@@ -358,7 +358,7 @@ as experiments with limited availability.
 
 | Badge | Name | Status | Availability | How to get |
 |---|---|---|---|---|
-| <img src="https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/active_developer.png" alt="Active Developer" width="42"> | **Active Developer** | ⚫ Retired | `UNOBTAINABLE` | No longer obtainable. |
+| <img src="https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/active_developer.png" alt="Active Developer" width="42"> | **Active Developer** | ⚫ Retired | `UNOBTAINABLE` | No longer obtainable. Discord decommissioned this badge December 2025, removing the badge from every profile. |
 | <img src="https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/supports_application_commands.png" alt="Supports Commands" width="42"> | **Supports Commands** | 🟢 Active | `AUTOMATIC` | Register at least one global application command for the app. |
 | <img src="https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/uses_automod.png" alt="Uses AutoMod" width="42"> | **Uses AutoMod** | 🟢 Active | `AUTOMATIC` | Have at least 100 AutoMod rules across all servers for the app. |
 
