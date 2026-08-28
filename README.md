@@ -13,9 +13,6 @@
 
 </div>
 
-> [!IMPORTANT]
-> **No generated placeholder badges are used in this version.** The previews below use real Discord badge artwork. Badge status and availability are checked separately against Discord's official documentation.
-
 ## Quick Navigation
 
 [Profile](#profile-badges) ·
