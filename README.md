@@ -218,6 +218,9 @@ as experiments with limited availability.
 > [!NOTE]
 > The evolving Nitro progression is for eligible Nitro subscriptions and is not available for Nitro Basic or Classic.
 
+ [!WARNING]
+> **Nitro renewal grace period:** If your Discord Nitro subscription ends, you have **7 days to renew** and maintain your Nitro badge streak. If you do not renew within that grace period, your **evolving Nitro badge progress will reset**, and you will have to start over.
+
 ## Server Booster Evolution
 
 <table>
