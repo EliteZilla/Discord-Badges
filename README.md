@@ -2,7 +2,7 @@
 
 # ✦ Discord Badge Archive
 
-### A modern visual catalog of Discord badges — using real badge artwork.
+### A modern visual catalog of Discord badges.
 
 **Current · Visual · Sourced · Structured**
 
