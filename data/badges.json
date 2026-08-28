@@ -13,13 +13,15 @@
       "obtainability": "obtainable",
       "description": "Profile badge shown for eligible Nitro subscriptions.",
       "how_to_obtain": "Subscribe to an eligible Discord Nitro plan.",
-      "asset": "assets/profile/discord-nitro.svg",
+      "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/nitro.png",
       "primary_source": "https://support.discord.com/hc/en-us/articles/360035962891-Profile-Badges-101",
       "source_type": "official",
       "last_verified": "2026-08-28",
       "notes": [
         "Eligible Nitro subscriptions can receive an evolving version; Nitro Basic and Classic do not receive the evolving progression."
-      ]
+      ],
+      "asset_source": "https://github.com/dev-hoehle/discord-badges",
+      "asset_mode": "remote"
     },
     {
       "id": "server-booster",
@@ -30,13 +32,15 @@
       "obtainability": "obtainable",
       "description": "Profile badge for users actively boosting one or more servers.",
       "how_to_obtain": "Actively boost a Discord server.",
-      "asset": "assets/profile/server-booster.svg",
+      "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/boost_1_months.png",
       "primary_source": "https://support.discord.com/hc/en-us/articles/360035962891-Profile-Badges-101",
       "source_type": "official",
       "last_verified": "2026-08-28",
       "notes": [
         "The design evolves with an uninterrupted boosting streak."
-      ]
+      ],
+      "asset_source": "https://github.com/dev-hoehle/discord-badges",
+      "asset_mode": "remote"
     },
     {
       "id": "discord-quests",
@@ -47,13 +51,15 @@
       "obtainability": "obtainable",
       "description": "Profile badge awarded after completing an eligible Discord Quest.",
       "how_to_obtain": "Complete an eligible Quest.",
-      "asset": "assets/profile/discord-quests.svg",
+      "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/complete_a_quest.png",
       "primary_source": "https://support.discord.com/hc/en-us/articles/22225719947543-Discord-Quests-FAQ",
       "source_type": "official",
       "last_verified": "2026-08-28",
       "notes": [
         "Discord states that Quest completions before April 24, 2024 do not retroactively grant the badge."
-      ]
+      ],
+      "asset_source": "https://github.com/dev-hoehle/discord-badges",
+      "asset_mode": "remote"
     },
     {
       "id": "orbs",
@@ -64,13 +70,15 @@
       "obtainability": "obtainable",
       "description": "Profile badge available through the Orbs shop.",
       "how_to_obtain": "Purchase the badge with Orbs in the Orbs shop.",
-      "asset": "assets/profile/orbs.svg",
+      "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/orbs_apprentice.png",
       "primary_source": "https://support.discord.com/hc/en-us/articles/360035962891-Profile-Badges-101",
       "source_type": "official",
       "last_verified": "2026-08-28",
       "notes": [
         "Discord states the badge cannot currently be removed after purchase."
-      ]
+      ],
+      "asset_source": "https://github.com/dev-hoehle/discord-badges",
+      "asset_mode": "remote"
     },
     {
       "id": "legacy-username",
@@ -81,13 +89,15 @@
       "obtainability": "limited",
       "description": "Indicates an eligible account that retained its old username and discriminator information after Discord's username transition.",
       "how_to_obtain": "Available only to eligible accounts from the legacy username system.",
-      "asset": "assets/profile/legacy-username.svg",
+      "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/originally_known_as.png",
       "primary_source": "https://support.discord.com/hc/en-us/articles/360035962891-Profile-Badges-101",
       "source_type": "official",
       "last_verified": "2026-08-28",
       "notes": [
         "Eligible users can disable the badge from profile settings."
-      ]
+      ],
+      "asset_source": "https://github.com/dev-hoehle/discord-badges",
+      "asset_mode": "remote"
     },
     {
       "id": "bug-hunter",
@@ -98,11 +108,13 @@
       "obtainability": "program",
       "description": "Recognition for highly active members of the Discord Testers bug-hunting community.",
       "how_to_obtain": "Participate actively in the Discord Testers community and meet its recognition criteria.",
-      "asset": "assets/profile/bug-hunter.svg",
+      "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/bug_hunter.png",
       "primary_source": "https://support.discord.com/hc/en-us/articles/360035962891-Profile-Badges-101",
       "source_type": "official",
       "last_verified": "2026-08-28",
-      "notes": []
+      "notes": [],
+      "asset_source": "https://github.com/dev-hoehle/discord-badges",
+      "asset_mode": "remote"
     },
     {
       "id": "golden-bug-hunter",
@@ -113,11 +125,13 @@
       "obtainability": "program",
       "description": "Higher-level Bug Hunter recognition for exceptional contributors in Discord Testers.",
       "how_to_obtain": "Reach the highest Bug Hunter level through exceptional participation in Discord Testers.",
-      "asset": "assets/profile/golden-bug-hunter.svg",
+      "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/golden_bug_hunter.png",
       "primary_source": "https://support.discord.com/hc/en-us/articles/360035962891-Profile-Badges-101",
       "source_type": "official",
       "last_verified": "2026-08-28",
-      "notes": []
+      "notes": [],
+      "asset_source": "https://github.com/dev-hoehle/discord-badges",
+      "asset_mode": "remote"
     },
     {
       "id": "discord-staff",
@@ -128,11 +142,13 @@
       "obtainability": "restricted",
       "description": "Profile badge identifying members of Discord staff.",
       "how_to_obtain": "Reserved for Discord employees.",
-      "asset": "assets/profile/discord-staff.svg",
+      "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/discord_staff.png",
       "primary_source": "https://support.discord.com/hc/en-us/articles/360035962891-Profile-Badges-101",
       "source_type": "official",
       "last_verified": "2026-08-28",
-      "notes": []
+      "notes": [],
+      "asset_source": "https://github.com/dev-hoehle/discord-badges",
+      "asset_mode": "remote"
     },
     {
       "id": "gifting",
@@ -143,11 +159,13 @@
       "obtainability": "selected-users",
       "description": "Experimental evolving badge related to Nitro and Shop gifting activity.",
       "how_to_obtain": "Currently available only to selected users in Discord's experiment.",
-      "asset": "assets/experimental/gifting.svg",
+      "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/gifting_patron.png",
       "primary_source": "https://support.discord.com/hc/en-us/articles/360035962891-Profile-Badges-101",
       "source_type": "official",
       "last_verified": "2026-08-28",
-      "notes": []
+      "notes": [],
+      "asset_source": "https://github.com/dev-hoehle/discord-badges",
+      "asset_mode": "remote"
     },
     {
       "id": "account-age",
@@ -158,11 +176,13 @@
       "obtainability": "selected-users",
       "description": "Experimental profile badge related to account age.",
       "how_to_obtain": "Currently available only to a small subset of desktop users.",
-      "asset": "assets/experimental/account-age.svg",
+      "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/account_age_seed.png",
       "primary_source": "https://support.discord.com/hc/en-us/articles/360035962891-Profile-Badges-101",
       "source_type": "official",
       "last_verified": "2026-08-28",
-      "notes": []
+      "notes": [],
+      "asset_source": "https://github.com/dev-hoehle/discord-badges",
+      "asset_mode": "remote"
     },
     {
       "id": "streaming",
@@ -173,11 +193,13 @@
       "obtainability": "selected-users",
       "description": "Experimental profile badge related to streaming activity.",
       "how_to_obtain": "Currently available only to a small subset of desktop users.",
-      "asset": "assets/experimental/streaming.svg",
+      "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/streaming_newcomer.png",
       "primary_source": "https://support.discord.com/hc/en-us/articles/360035962891-Profile-Badges-101",
       "source_type": "official",
       "last_verified": "2026-08-28",
-      "notes": []
+      "notes": [],
+      "asset_source": "https://github.com/dev-hoehle/discord-badges",
+      "asset_mode": "remote"
     },
     {
       "id": "game-time",
@@ -188,11 +210,13 @@
       "obtainability": "selected-users",
       "description": "Experimental profile badge related to game-time activity.",
       "how_to_obtain": "Currently available only to a small subset of desktop users.",
-      "asset": "assets/experimental/game-time.svg",
+      "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_time_casual.png",
       "primary_source": "https://support.discord.com/hc/en-us/articles/360035962891-Profile-Badges-101",
       "source_type": "official",
       "last_verified": "2026-08-28",
-      "notes": []
+      "notes": [],
+      "asset_source": "https://github.com/dev-hoehle/discord-badges",
+      "asset_mode": "remote"
     },
     {
       "id": "game-variety",
@@ -203,11 +227,13 @@
       "obtainability": "selected-users",
       "description": "Experimental profile badge related to the variety of games played.",
       "how_to_obtain": "Currently available only to a small subset of desktop users.",
-      "asset": "assets/experimental/game-variety.svg",
+      "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_variety_sampler.png",
       "primary_source": "https://support.discord.com/hc/en-us/articles/360035962891-Profile-Badges-101",
       "source_type": "official",
       "last_verified": "2026-08-28",
-      "notes": []
+      "notes": [],
+      "asset_source": "https://github.com/dev-hoehle/discord-badges",
+      "asset_mode": "remote"
     },
     {
       "id": "hypesquad-events",
@@ -218,11 +244,13 @@
       "obtainability": "unobtainable",
       "description": "Historical badge for members who represented Discord through HypeSquad Events.",
       "how_to_obtain": "No longer obtainable.",
-      "asset": "assets/legacy/hypesquad-events.svg",
+      "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/hypesquad_events.png",
       "primary_source": "https://support.discord.com/hc/en-us/articles/360035962891-Profile-Badges-101",
       "source_type": "official",
       "last_verified": "2026-08-28",
-      "notes": []
+      "notes": [],
+      "asset_source": "https://github.com/dev-hoehle/discord-badges",
+      "asset_mode": "remote"
     },
     {
       "id": "hypesquad-bravery",
@@ -233,11 +261,13 @@
       "obtainability": "unobtainable",
       "description": "One of the former HypeSquad House profile badges.",
       "how_to_obtain": "No longer obtainable.",
-      "asset": "assets/legacy/hypesquad-bravery.svg",
+      "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/hypesquad_bravery.png",
       "primary_source": "https://support.discord.com/hc/en-us/articles/360035962891-Profile-Badges-101",
       "source_type": "official",
       "last_verified": "2026-08-28",
-      "notes": []
+      "notes": [],
+      "asset_source": "https://github.com/dev-hoehle/discord-badges",
+      "asset_mode": "remote"
     },
     {
       "id": "hypesquad-brilliance",
@@ -248,11 +278,13 @@
       "obtainability": "unobtainable",
       "description": "One of the former HypeSquad House profile badges.",
       "how_to_obtain": "No longer obtainable.",
-      "asset": "assets/legacy/hypesquad-brilliance.svg",
+      "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/hypesquad_brilliance.png",
       "primary_source": "https://support.discord.com/hc/en-us/articles/360035962891-Profile-Badges-101",
       "source_type": "official",
       "last_verified": "2026-08-28",
-      "notes": []
+      "notes": [],
+      "asset_source": "https://github.com/dev-hoehle/discord-badges",
+      "asset_mode": "remote"
     },
     {
       "id": "hypesquad-balance",
@@ -263,11 +295,13 @@
       "obtainability": "unobtainable",
       "description": "One of the former HypeSquad House profile badges.",
       "how_to_obtain": "No longer obtainable.",
-      "asset": "assets/legacy/hypesquad-balance.svg",
+      "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/hypesquad_balance.png",
       "primary_source": "https://support.discord.com/hc/en-us/articles/360035962891-Profile-Badges-101",
       "source_type": "official",
       "last_verified": "2026-08-28",
-      "notes": []
+      "notes": [],
+      "asset_source": "https://github.com/dev-hoehle/discord-badges",
+      "asset_mode": "remote"
     },
     {
       "id": "moderator-program-alumni",
@@ -278,13 +312,15 @@
       "obtainability": "unobtainable",
       "description": "Recognition for people who participated in Discord's former moderator-program ecosystem.",
       "how_to_obtain": "No longer obtainable.",
-      "asset": "assets/legacy/moderator-program-alumni.svg",
+      "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/moderator_programs_aluminum.png",
       "primary_source": "https://support.discord.com/hc/en-us/articles/360035962891-Profile-Badges-101",
       "source_type": "official",
       "last_verified": "2026-08-28",
       "notes": [
         "Discord describes this as the successor to the Certified Discord Moderator badge for qualifying participants before December 1, 2022."
-      ]
+      ],
+      "asset_source": "https://github.com/dev-hoehle/discord-badges",
+      "asset_mode": "remote"
     },
     {
       "id": "early-supporter",
@@ -295,13 +331,15 @@
       "obtainability": "unobtainable",
       "description": "Historical badge thanking early Nitro supporters.",
       "how_to_obtain": "No longer obtainable.",
-      "asset": "assets/legacy/early-supporter.svg",
+      "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/early_supporter.png",
       "primary_source": "https://support.discord.com/hc/en-us/articles/360035962891-Profile-Badges-101",
       "source_type": "official",
       "last_verified": "2026-08-28",
       "notes": [
         "Discord says it was granted to users who purchased Nitro before October 10, 2018."
-      ]
+      ],
+      "asset_source": "https://github.com/dev-hoehle/discord-badges",
+      "asset_mode": "remote"
     },
     {
       "id": "partnered-server-owner",
@@ -312,11 +350,13 @@
       "obtainability": "unobtainable",
       "description": "Historical badge for owners recognized through Discord's Partner Program.",
       "how_to_obtain": "No longer obtainable.",
-      "asset": "assets/legacy/partnered-server-owner.svg",
+      "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/partner_server_owner.png",
       "primary_source": "https://support.discord.com/hc/en-us/articles/360035962891-Profile-Badges-101",
       "source_type": "official",
       "last_verified": "2026-08-28",
-      "notes": []
+      "notes": [],
+      "asset_source": "https://github.com/dev-hoehle/discord-badges",
+      "asset_mode": "remote"
     },
     {
       "id": "last-meadow-online",
@@ -327,13 +367,15 @@
       "obtainability": "unobtainable",
       "description": "Limited-time profile badge tied to the Last Meadow Online event.",
       "how_to_obtain": "No longer obtainable.",
-      "asset": "assets/legacy/last-meadow-online.svg",
+      "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/last_meadow.png",
       "primary_source": "https://support.discord.com/hc/en-us/articles/360035962891-Profile-Badges-101",
       "source_type": "official",
       "last_verified": "2026-08-28",
       "notes": [
         "Discord lists the earning window as April 1–7, 2026."
-      ]
+      ],
+      "asset_source": "https://github.com/dev-hoehle/discord-badges",
+      "asset_mode": "remote"
     },
     {
       "id": "active-developer",
@@ -344,13 +386,15 @@
       "obtainability": "unobtainable",
       "description": "Former developer recognition badge that has been decommissioned.",
       "how_to_obtain": "No longer obtainable.",
-      "asset": "assets/developers/active-developer.svg",
+      "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/active_developer.png",
       "primary_source": "https://support-dev.discord.com/hc/en-us/articles/10113997751447-Active-Developer-Badge",
       "source_type": "official",
       "last_verified": "2026-08-28",
       "notes": [
         "Discord Developer Support states that previously displayed Active Developer badges were removed."
-      ]
+      ],
+      "asset_source": "https://github.com/dev-hoehle/discord-badges",
+      "asset_mode": "remote"
     },
     {
       "id": "supports-commands",
@@ -361,13 +405,15 @@
       "obtainability": "automatic",
       "description": "App/profile badge indicating that an application has registered at least one global application command.",
       "how_to_obtain": "Register at least one global application command for the app.",
-      "asset": "assets/apps/supports-commands.svg",
+      "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/supports_application_commands.png",
       "primary_source": "https://support-dev.discord.com/hc/en-us/articles/7612640996503-Introducing-Command-Badges",
       "source_type": "official",
       "last_verified": "2026-08-28",
       "notes": [
         "Discord's Application resource also exposes an APPLICATION_COMMAND_BADGE flag."
-      ]
+      ],
+      "asset_source": "https://github.com/dev-hoehle/discord-badges",
+      "asset_mode": "remote"
     },
     {
       "id": "uses-automod",
@@ -378,13 +424,16 @@
       "obtainability": "automatic",
       "description": "App/profile badge indicating significant use of Discord's Auto Moderation API.",
       "how_to_obtain": "Have at least 100 AutoMod rules across all servers for the app.",
-      "asset": "assets/apps/uses-automod.svg",
+      "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/uses_automod.png",
       "primary_source": "https://support-dev.discord.com/hc/en-us/articles/13847462843543-Introducing-the-AutoMod-Badge",
       "source_type": "official",
       "last_verified": "2026-08-28",
       "notes": [
         "Discord's Application resource exposes an APPLICATION_AUTO_MODERATION_RULE_CREATE_BADGE flag."
-      ]
+      ],
+      "asset_source": "https://github.com/dev-hoehle/discord-badges",
+      "asset_mode": "remote"
     }
-  ]
+  ],
+  "visual_policy": "The README uses real Discord badge artwork remote-linked from a public badge collection. This avoids presenting generated substitutes as Discord artwork and avoids silently placing third-party image files under this repository's MIT license."
 }

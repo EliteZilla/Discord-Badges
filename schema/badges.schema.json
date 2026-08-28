@@ -96,10 +96,30 @@
             "items": {
               "type": "string"
             }
+          },
+          "asset_source": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "asset_mode": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "remote",
+              "local",
+              null
+            ]
           }
         },
         "additionalProperties": false
       }
+    },
+    "visual_policy": {
+      "type": "string"
     }
   },
   "additionalProperties": false

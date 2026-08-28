@@ -21,3 +21,15 @@
 - Updated README tables to show inline previews.
 
 - README upgraded to a gallery-style presentation with larger visual badge sections and collapsible detail tables.
+
+### Visual overhaul
+
+- Removed generated placeholder badge graphics.
+- Switched all seeded README previews to real Discord badge artwork.
+- Added the full six-stage Gifting evolution.
+- Added all ten Account Age experimental levels.
+- Added all ten Streaming experimental levels.
+- Added all ten Game Time experimental levels.
+- Added all ten Game Variety experimental levels.
+- Switched Nitro and Server Booster galleries to real badge visuals.
+- Added remote-asset provenance fields and validation support.

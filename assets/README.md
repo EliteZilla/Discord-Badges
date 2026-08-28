@@ -1,17 +1,19 @@
-# Asset Policy
+# Badge Artwork
 
-This starter now includes visuals for every seeded badge entry, plus Nitro and Server Booster evolution sets.
+The README now uses **real Discord badge artwork**, not generated placeholder graphics.
 
-## What these visuals are
+## How the visuals are handled
 
-These files are **original starter visuals** created specifically for this repository so the project has a clean and modern visual presentation on GitHub right away.
+The current artwork is remote-linked from the public
+[`dev-hoehle/discord-badges`](https://github.com/dev-hoehle/discord-badges) collection.
 
-They are intentionally styled as a consistent preview system rather than attempting to be pixel-perfect copies of Discord's artwork. If you later want exact badge art, you can replace any file and keep the same path.
+That lets the GitHub README show the actual badges while keeping third-party visual files
+separate from this repository's MIT-licensed code and original writing.
 
-## Source tracking
+Discord's official Help Center and Developer documentation remain the authority for badge
+status, availability, and requirements.
 
-See [`docs/ASSET_SOURCES.md`](../docs/ASSET_SOURCES.md) for a file-by-file list.
+## Local assets later
 
-## Naming
-
-Use lowercase kebab-case for new assets where practical.
+The data format supports both remote and local assets. If cleared local copies are added later,
+set `asset` to the repository path and `asset_mode` to `local`.

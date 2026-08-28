@@ -1,26 +1,336 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "last_verified": "2026-08-28",
-  "series": [
-    {
-      "id": "nitro-evolution",
-      "name": "Evolving Nitro Badge",
-      "status": "active",
-      "description": "The Nitro profile badge changes design as an uninterrupted eligible Nitro subscription reaches milestones.",
-      "eligibility": "Eligible Nitro subscriptions; Nitro Basic and Classic do not receive the evolving version.",
-      "reset_behavior": "If the eligible subscription ends, progression resets when the user later resubscribes.",
-      "source": "https://support.discord.com/hc/en-us/articles/29136565881623-Evolving-Nitro-Badges",
-      "last_verified": "2026-08-28"
-    },
-    {
-      "id": "server-booster-evolution",
-      "name": "Server Booster Badge Evolution",
-      "status": "active",
-      "description": "The Server Booster profile badge evolves as an uninterrupted boosting streak reaches milestones.",
-      "eligibility": "Maintain at least one active Server Boost.",
-      "reset_behavior": "The streak resets if the user is no longer boosting any server.",
-      "source": "https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ",
-      "last_verified": "2026-08-28"
-    }
-  ]
+  "image_source": "https://github.com/dev-hoehle/discord-badges",
+  "series": {
+    "gifting": [
+      {
+        "name": "Patron",
+        "requirement": "Gifted 1\u00d7",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/gifting_patron.png"
+      },
+      {
+        "name": "Champion",
+        "requirement": "Gifted 2\u00d7",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/gifting_champion.png"
+      },
+      {
+        "name": "Luminary",
+        "requirement": "Gifted 3\u00d7",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/gifting_luminary.png"
+      },
+      {
+        "name": "Icon",
+        "requirement": "Gifted 6\u00d7",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/gifting_icon.png"
+      },
+      {
+        "name": "Hero",
+        "requirement": "Gifted 10\u00d7",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/gifting_hero.png"
+      },
+      {
+        "name": "Legend",
+        "requirement": "Gifted 20\u00d7",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/gifting_legend.png"
+      }
+    ],
+    "nitro": [
+      {
+        "name": "Bronze",
+        "requirement": "1 month",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/nitro_bronze.png"
+      },
+      {
+        "name": "Silver",
+        "requirement": "3 months",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/nitro_silver.png"
+      },
+      {
+        "name": "Gold",
+        "requirement": "6 months",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/nitro_gold.png"
+      },
+      {
+        "name": "Platinum",
+        "requirement": "12 months",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/nitro_platinum.png"
+      },
+      {
+        "name": "Diamond",
+        "requirement": "24 months",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/nitro_diamond.png"
+      },
+      {
+        "name": "Emerald",
+        "requirement": "36 months",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/nitro_emerald.png"
+      },
+      {
+        "name": "Ruby",
+        "requirement": "60 months",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/nitro_ruby.png"
+      },
+      {
+        "name": "Opal",
+        "requirement": "72+ months",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/nitro_opal.png"
+      }
+    ],
+    "boosting": [
+      {
+        "name": "1 Month",
+        "requirement": "1 month",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/boost_1_months.png"
+      },
+      {
+        "name": "2 Months",
+        "requirement": "2 months",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/boost_2_months.png"
+      },
+      {
+        "name": "3 Months",
+        "requirement": "3 months",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/boost_3_months.png"
+      },
+      {
+        "name": "6 Months",
+        "requirement": "6 months",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/boost_6_months.png"
+      },
+      {
+        "name": "9 Months",
+        "requirement": "9 months",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/boost_9_months.png"
+      },
+      {
+        "name": "12 Months",
+        "requirement": "1 year",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/boost_12_months.png"
+      },
+      {
+        "name": "15 Months",
+        "requirement": "15 months",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/boost_15_months.png"
+      },
+      {
+        "name": "18 Months",
+        "requirement": "18 months",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/boost_18_months.png"
+      },
+      {
+        "name": "24 Months",
+        "requirement": "2 years",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/boost_24_months.png"
+      }
+    ],
+    "account_age": [
+      {
+        "name": "Seed",
+        "requirement": "1 year",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/account_age_seed.png"
+      },
+      {
+        "name": "Sprout",
+        "requirement": "2 years",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/account_age_sprout.png"
+      },
+      {
+        "name": "Bud",
+        "requirement": "3 years",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/account_age_bud.png"
+      },
+      {
+        "name": "Sapling",
+        "requirement": "4 years",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/account_age_sapling.png"
+      },
+      {
+        "name": "Blossom",
+        "requirement": "5 years",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/account_age_blossom.png"
+      },
+      {
+        "name": "Redwood",
+        "requirement": "6 years",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/account_age_redwood.png"
+      },
+      {
+        "name": "Sequoia",
+        "requirement": "7 years",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/account_age_sequoia.png"
+      },
+      {
+        "name": "Bristlecone",
+        "requirement": "8 years",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/account_age_bristlecone.png"
+      },
+      {
+        "name": "Stromatolite",
+        "requirement": "9 years",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/account_age_stromatolite.png"
+      },
+      {
+        "name": "Primordial",
+        "requirement": "10+ years",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/account_age_primordial.png"
+      }
+    ],
+    "streaming": [
+      {
+        "name": "Newcomer",
+        "requirement": "1 hour",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/streaming_newcomer.png"
+      },
+      {
+        "name": "Fledgling",
+        "requirement": "5 hours",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/streaming_fledgling.png"
+      },
+      {
+        "name": "Breakout",
+        "requirement": "20 hours",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/streaming_breakout.png"
+      },
+      {
+        "name": "Standout",
+        "requirement": "75 hours",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/streaming_standout.png"
+      },
+      {
+        "name": "Trendsetter",
+        "requirement": "150 hours",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/streaming_trendsetter.png"
+      },
+      {
+        "name": "Headliner",
+        "requirement": "300 hours",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/streaming_headliner.png"
+      },
+      {
+        "name": "Star",
+        "requirement": "500 hours",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/streaming_star.png"
+      },
+      {
+        "name": "Sensation",
+        "requirement": "1,000 hours",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/streaming_sensation.png"
+      },
+      {
+        "name": "Visionary",
+        "requirement": "2,000 hours",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/streaming_visionary.png"
+      },
+      {
+        "name": "Phenomenon",
+        "requirement": "5,000+ hours",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/streaming_phenomenon.png"
+      }
+    ],
+    "game_time": [
+      {
+        "name": "Casual",
+        "requirement": "1 hour",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_time_casual.png"
+      },
+      {
+        "name": "Recreational",
+        "requirement": "5 hours",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_time_recreational.png"
+      },
+      {
+        "name": "Dedicated",
+        "requirement": "20 hours",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_time_dedicated.png"
+      },
+      {
+        "name": "Committed",
+        "requirement": "75 hours",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_time_committed.png"
+      },
+      {
+        "name": "Serious",
+        "requirement": "150 hours",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_time_serious.png"
+      },
+      {
+        "name": "Devoted",
+        "requirement": "300 hours",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_time_devoted.png"
+      },
+      {
+        "name": "Seasoned",
+        "requirement": "500 hours",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_time_seasoned.png"
+      },
+      {
+        "name": "Ironclad",
+        "requirement": "1,000 hours",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_time_ironclad.png"
+      },
+      {
+        "name": "Unshakeable",
+        "requirement": "2,000 hours",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_time_unshakeable.png"
+      },
+      {
+        "name": "Eternal",
+        "requirement": "5,000+ hours",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_time_eternal.png"
+      }
+    ],
+    "game_variety": [
+      {
+        "name": "Sampler",
+        "requirement": "2 games",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_variety_sampler.png"
+      },
+      {
+        "name": "Dabbler",
+        "requirement": "5 games",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_variety_dabbler.png"
+      },
+      {
+        "name": "Enthusiast",
+        "requirement": "10 games",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_variety_enthusiast.png"
+      },
+      {
+        "name": "Ranger",
+        "requirement": "15 games",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_variety_ranger.png"
+      },
+      {
+        "name": "Explorer",
+        "requirement": "20 games",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_variety_explorer.png"
+      },
+      {
+        "name": "Adventurer",
+        "requirement": "30 games",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_variety_adventurer.png"
+      },
+      {
+        "name": "Voyager",
+        "requirement": "40 games",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_variety_voyager.png"
+      },
+      {
+        "name": "Maverick",
+        "requirement": "60 games",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_variety_maverick.png"
+      },
+      {
+        "name": "Polymath",
+        "requirement": "80 games",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_variety_polymath.png"
+      },
+      {
+        "name": "Universalist",
+        "requirement": "100+ games",
+        "asset": "https://raw.githubusercontent.com/dev-hoehle/discord-badges/main/png/game_variety_universalist.png"
+      }
+    ]
+  }
 }

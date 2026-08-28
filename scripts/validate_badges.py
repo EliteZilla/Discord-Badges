@@ -18,17 +18,28 @@ for i, badge in enumerate(data.get("badges", [])):
     for field in ("id","name","category","classification","status","obtainability","description","how_to_obtain","primary_source","source_type","last_verified"):
         if not badge.get(field):
             errors.append(f"{p}: missing {field}")
+
     bid = badge.get("id","")
     if not ID_RE.match(bid): errors.append(f"{p}: invalid id")
     if bid in seen: errors.append(f"{p}: duplicate id")
     seen.add(bid)
+
     if badge.get("status") not in VALID_STATUS: errors.append(f"{p}: invalid status")
     if badge.get("source_type") not in VALID_SOURCE: errors.append(f"{p}: invalid source_type")
     if not DATE_RE.match(badge.get("last_verified","")): errors.append(f"{p}: invalid date")
-    u = urlparse(badge.get("primary_source",""))
-    if u.scheme not in ("http","https") or not u.netloc: errors.append(f"{p}: invalid source URL")
-    if badge.get("asset") and not (ROOT / badge["asset"]).exists():
-        errors.append(f"{p}: missing asset {badge['asset']}")
+
+    source = urlparse(badge.get("primary_source",""))
+    if source.scheme not in ("http","https") or not source.netloc:
+        errors.append(f"{p}: invalid primary source URL")
+
+    asset = badge.get("asset")
+    if asset:
+        parsed = urlparse(asset)
+        if parsed.scheme in ("http","https"):
+            if not parsed.netloc:
+                errors.append(f"{p}: invalid remote asset URL")
+        elif not (ROOT / asset).exists():
+            errors.append(f"{p}: missing local asset {asset}")
 
 if errors:
     print("\n".join("ERROR: " + e for e in errors))
