@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Discord Badge Archive",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "project",
+    "last_verified",
+    "badges"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "project": {
+      "type": "string"
+    },
+    "last_verified": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "verification_policy": {
+      "type": "string"
+    },
+    "badges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "category",
+          "classification",
+          "status",
+          "obtainability",
+          "description",
+          "how_to_obtain",
+          "primary_source",
+          "source_type",
+          "last_verified"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "category": {
+            "type": "string"
+          },
+          "classification": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "active",
+              "experimental",
+              "legacy",
+              "retired"
+            ]
+          },
+          "obtainability": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "how_to_obtain": {
+            "type": "string"
+          },
+          "asset": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "primary_source": {
+            "type": "string"
+          },
+          "source_type": {
+            "enum": [
+              "official",
+              "community",
+              "historical"
+            ]
+          },
+          "last_verified": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          },
+          "notes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

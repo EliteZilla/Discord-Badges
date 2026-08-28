@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "last_verified": "2026-08-28",
+  "series": [
+    {
+      "id": "nitro-evolution",
+      "name": "Evolving Nitro Badge",
+      "status": "active",
+      "description": "The Nitro profile badge changes design as an uninterrupted eligible Nitro subscription reaches milestones.",
+      "eligibility": "Eligible Nitro subscriptions; Nitro Basic and Classic do not receive the evolving version.",
+      "reset_behavior": "If the eligible subscription ends, progression resets when the user later resubscribes.",
+      "source": "https://support.discord.com/hc/en-us/articles/29136565881623-Evolving-Nitro-Badges",
+      "last_verified": "2026-08-28"
+    },
+    {
+      "id": "server-booster-evolution",
+      "name": "Server Booster Badge Evolution",
+      "status": "active",
+      "description": "The Server Booster profile badge evolves as an uninterrupted boosting streak reaches milestones.",
+      "eligibility": "Maintain at least one active Server Boost.",
+      "reset_behavior": "The streak resets if the user is no longer boosting any server.",
+      "source": "https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ",
+      "last_verified": "2026-08-28"
+    }
+  ]
+}
