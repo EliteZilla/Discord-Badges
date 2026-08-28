@@ -19,3 +19,5 @@
 - Added Nitro and Server Booster evolution preview sets.
 - Added file-by-file asset documentation.
 - Updated README tables to show inline previews.
+
+- README upgraded to a gallery-style presentation with larger visual badge sections and collapsible detail tables.
