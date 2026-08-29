@@ -8,7 +8,6 @@
 
 ![Last Verified](https://img.shields.io/badge/last%20verified-2026--08--28-5865F2?style=flat-square)
 ![Badge Data](https://img.shields.io/badge/data-JSON-23A55A?style=flat-square)
-![Artwork](https://img.shields.io/badge/artwork-real%20badge%20visuals-ED4245?style=flat-square)
 ![Contributions](https://img.shields.io/badge/contributions-welcome-F0B232?style=flat-square)
 
 </div>
